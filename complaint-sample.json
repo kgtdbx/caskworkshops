@@ -1,0 +1,1278 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "s6ew-h6mp",
+      "name" : "Consumer Complaints",
+      "averageRating" : 100,
+      "createdAt" : 1431450318,
+      "description" : "Each week we send thousands of consumers' complaints about financial products and services to companies for response. Complaints are listed in the database after the company responds or after they’ve had the complaint for 15 calendar days, whichever comes first.<br><br>\r\n\r\nWe publish the consumer’s description of what happened if the consumer opts to share it and after taking steps to remove personal information. See our <a href=\"http://files.consumerfinance.gov/a/assets/201503_cfpb_Narrative-Scrubbing-Standard.pdf\">Scrubbing Standard</a> for more details<br><br>\r\n\r\nWe don’t verify all the facts alleged in these complaints, but we take steps to confirm a commercial relationship. We may remove complaints if they don’t meet all of the publication criteria. Data is generally refreshed nightly. Company level information should be considered in context of company size and/or market share.<br><br>\r\n\r\n<a href=\"http://www.consumerfinance.gov/complaintdatabase/\">More about the Consumer Complaint Database</a> | <a href=\"http://www.consumerfinance.gov/complaint/data-use/\">How we use complaint data</a> | <a href=\"http://www.consumerfinance.gov/complaintdatabase/technical-documentation/\">Technical documentation</a>",
+      "displayType" : "table",
+      "downloadCount" : 72213,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1492846921,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 22198008,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1467818298,
+      "publicationGroup" : 2819740,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1492846705,
+      "rowsUpdatedBy" : "pjxg-ve4m",
+      "tableId" : 11756201,
+      "totalTimesRated" : 2,
+      "viewCount" : 376110,
+      "viewLastModified" : 1487382390,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 261888793,
+        "name" : "Date received",
+        "dataTypeName" : "calendar_date",
+        "description" : "The date the CFPB received the complaint",
+        "fieldName" : "date_received",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 28249505,
+        "width" : 91,
+        "cachedContents" : {
+          "largest" : "2017-04-21T20:47:27",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2017-02-02T18:48:26",
+            "count" : 20
+          }, {
+            "item" : "2017-04-03T21:07:59",
+            "count" : 19
+          }, {
+            "item" : "2017-03-04T18:28:42",
+            "count" : 18
+          }, {
+            "item" : "2017-04-04T17:43:18",
+            "count" : 17
+          }, {
+            "item" : "2017-04-13T15:02:30",
+            "count" : 16
+          }, {
+            "item" : "2017-01-19T21:50:08",
+            "count" : 15
+          }, {
+            "item" : "2017-04-06T23:06:47",
+            "count" : 14
+          }, {
+            "item" : "2017-04-12T14:11:07",
+            "count" : 13
+          } ],
+          "smallest" : "2011-12-01T05:27:56"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888794,
+        "name" : "Product",
+        "dataTypeName" : "text",
+        "description" : "The type of product the consumer identified in the complaint",
+        "fieldName" : "product",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249497,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Virtual currency",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Consumer Loan",
+            "count" : 20
+          }, {
+            "item" : "Bank account or service",
+            "count" : 19
+          }, {
+            "item" : "Mortgage",
+            "count" : 18
+          }, {
+            "item" : "Debt collection",
+            "count" : 17
+          }, {
+            "item" : "Credit card",
+            "count" : 16
+          }, {
+            "item" : "Credit reporting",
+            "count" : 15
+          }, {
+            "item" : "Student loan",
+            "count" : 14
+          }, {
+            "item" : "Money transfers",
+            "count" : 13
+          }, {
+            "item" : "Payday loan",
+            "count" : 12
+          }, {
+            "item" : "Other financial service",
+            "count" : 11
+          }, {
+            "item" : "Prepaid card",
+            "count" : 10
+          }, {
+            "item" : "Virtual currency",
+            "count" : 9
+          } ],
+          "smallest" : "Bank account or service"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888795,
+        "name" : "Sub-product",
+        "dataTypeName" : "text",
+        "description" : "The type of sub-product the consumer identified in the complaint",
+        "fieldName" : "sub_product",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249498,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "Vehicle loan",
+          "non_null" : 534846,
+          "null" : 227598,
+          "top" : [ {
+            "item" : "Vehicle loan",
+            "count" : 20
+          }, {
+            "item" : "Checking account",
+            "count" : 19
+          }, {
+            "item" : "Conventional fixed mortgage",
+            "count" : 18
+          }, {
+            "item" : "Other (i.e. phone, health club, etc.)",
+            "count" : 17
+          }, {
+            "item" : "I do not know",
+            "count" : 16
+          }, {
+            "item" : "Other mortgage",
+            "count" : 15
+          }, {
+            "item" : "Credit card",
+            "count" : 14
+          }, {
+            "item" : "Conventional adjustable mortgage (ARM)",
+            "count" : 13
+          }, {
+            "item" : "Other bank product/service",
+            "count" : 12
+          }, {
+            "item" : "FHA mortgage",
+            "count" : 11
+          }, {
+            "item" : "(CD) Certificate of deposit",
+            "count" : 10
+          }, {
+            "item" : "Non-federal student loan",
+            "count" : 9
+          }, {
+            "item" : "Home equity loan or line of credit",
+            "count" : 8
+          }, {
+            "item" : "Vehicle lease",
+            "count" : 7
+          }, {
+            "item" : "Savings account",
+            "count" : 6
+          }, {
+            "item" : "Mortgage",
+            "count" : 5
+          }, {
+            "item" : "Reverse mortgage",
+            "count" : 4
+          }, {
+            "item" : "Auto",
+            "count" : 3
+          }, {
+            "item" : "Installment loan",
+            "count" : 2
+          }, {
+            "item" : "Medical",
+            "count" : 1
+          } ],
+          "smallest" : "(CD) Certificate of deposit"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888796,
+        "name" : "Issue",
+        "dataTypeName" : "text",
+        "description" : "The issue the consumer identified in the complaint",
+        "fieldName" : "issue",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249499,
+        "width" : 254,
+        "cachedContents" : {
+          "largest" : "Wrong amount charged or received",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Managing the loan or lease",
+            "count" : 20
+          }, {
+            "item" : "Account opening, closing, or management",
+            "count" : 19
+          }, {
+            "item" : "Deposits and withdrawals",
+            "count" : 18
+          }, {
+            "item" : "Loan servicing, payments, escrow account",
+            "count" : 17
+          }, {
+            "item" : "Cont'd attempts collect debt not owed",
+            "count" : 16
+          }, {
+            "item" : "Loan modification,collection,foreclosure",
+            "count" : 15
+          }, {
+            "item" : "Communication tactics",
+            "count" : 14
+          }, {
+            "item" : "Application, originator, mortgage broker",
+            "count" : 13
+          }, {
+            "item" : "Incorrect information on credit report",
+            "count" : 12
+          }, {
+            "item" : "Problems caused by my funds being low",
+            "count" : 11
+          }, {
+            "item" : "Settlement process and costs",
+            "count" : 10
+          }, {
+            "item" : "Billing disputes",
+            "count" : 9
+          }, {
+            "item" : "Unable to get credit report/credit score",
+            "count" : 8
+          }, {
+            "item" : "Closing/Cancelling account",
+            "count" : 7
+          }, {
+            "item" : "Credit reporting company's investigation",
+            "count" : 6
+          }, {
+            "item" : "Identity theft / Fraud / Embezzlement",
+            "count" : 5
+          }, {
+            "item" : "Improper contact or sharing of info",
+            "count" : 4
+          }, {
+            "item" : "Disclosure verification of debt",
+            "count" : 3
+          }, {
+            "item" : "Other",
+            "count" : 2
+          }, {
+            "item" : "Problems when you are unable to pay",
+            "count" : 1
+          } ],
+          "smallest" : "Account opening, closing, or management"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888797,
+        "name" : "Sub-issue",
+        "dataTypeName" : "text",
+        "description" : "The sub-issue the consumer identified in the complaint",
+        "fieldName" : "sub_issue",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249500,
+        "width" : 212,
+        "cachedContents" : {
+          "largest" : "Used obscene/profane/abusive language",
+          "non_null" : 321079,
+          "null" : 441365,
+          "top" : [ {
+            "item" : "Debt is not mine",
+            "count" : 20
+          }, {
+            "item" : "Debt was paid",
+            "count" : 19
+          }, {
+            "item" : "Frequent or repeated calls",
+            "count" : 18
+          }, {
+            "item" : "Public record",
+            "count" : 17
+          }, {
+            "item" : "Report improperly shared by CRC",
+            "count" : 16
+          }, {
+            "item" : "Threatened to take legal action",
+            "count" : 15
+          }, {
+            "item" : "Information is not mine",
+            "count" : 14
+          }, {
+            "item" : "Problem getting my free annual report",
+            "count" : 13
+          }, {
+            "item" : "Account status",
+            "count" : 12
+          }, {
+            "item" : "Problem with statement of dispute",
+            "count" : 11
+          }, {
+            "item" : "Account terms",
+            "count" : 10
+          }, {
+            "item" : "No notice of investigation status/result",
+            "count" : 9
+          }, {
+            "item" : "Talked to a third party about my debt",
+            "count" : 8
+          }, {
+            "item" : "Not given enough info to verify debt",
+            "count" : 7
+          }, {
+            "item" : "Attempted to collect wrong amount",
+            "count" : 6
+          }, {
+            "item" : "Personal information",
+            "count" : 5
+          }, {
+            "item" : "Right to dispute notice not received",
+            "count" : 4
+          }, {
+            "item" : "Problem getting report or credit score",
+            "count" : 3
+          }, {
+            "item" : "Debt resulted from identity theft",
+            "count" : 2
+          }, {
+            "item" : "Reinserted previously deleted info",
+            "count" : 1
+          } ],
+          "smallest" : "Account status"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888798,
+        "name" : "Consumer complaint narrative",
+        "dataTypeName" : "text",
+        "description" : "Consumer complaint narrative is the consumer-submitted description of \"what happened\" from the complaint. Consumers must opt-in to share their narrative. We will not publish the narrative unless the consumer consents, and consumers can opt-out at any time. The CFPB takes reasonable steps to scrub personal information from each complaint that could be used to identify the consumer.",
+        "fieldName" : "complaint_what_happened",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249493,
+        "width" : 376,
+        "cachedContents" : {
+          "largest" : "Zwicker and Associates dropped off paperwork to my significant other, handing him a copy of the legal filing - unsealed, unstapled, and completely visible. In doing so, they disclosed this filing to my significant other, potentially in an attempt to embarrass and pressure me. This disclosure is illegal and should be addressed.",
+          "non_null" : 152676,
+          "null" : 609768,
+          "top" : [ {
+            "item" : "Advance urgent care did n't provide adequate verification for debt. In question no documents were provided showing a contract or signature. No contract no signature!",
+            "count" : 20
+          }, {
+            "item" : "On XX/XX/2017 deposit XXXX XXXX debit card checks each ( {$2500.00} ) totaling $ XXXX US bank Atm. Unable to access Acct on XX/XX/XXXX. Called US bank customer service XX/XX/2017 and told my account closed due to fraudulent checks deposit made XX/XX/2017. I Obtained copies of checks in question from US bank and took to XXXX, where checks originated. Informed by XXXX that checks are valid. XXXX contacted by phone, emailed this information to US bank with no call I to resolve this matter. I Called XXXX, mgr at US bank XXXX branch and told he spoke with someone over him. He informed me my accounts to be closed ; a check to be mailed out to me ( minus bank fees ) around XX/XX/2017.",
+            "count" : 19
+          }, {
+            "item" : "I signed up for a Citi checking bank account. \nThere was a promotional offer advertised on their website. I fulfilled my obligations and met the requirements for me to earn the { {$400.00} } bonus. I waited the required time frame of XXXX days and Citi has failed to honor the bonus offer. \nMy request is for Citi Bank to honor the bonus by paying me my { {$400.00} }",
+            "count" : 18
+          }, {
+            "item" : "Good morning, I have had an account with Navy Federal Credit Union ( NFCU ) since XXXX. During the past 10 years I have experiences unethical and unprofessional business practices by all \" customer support '' representatives affiliated with NFCU to include but not limited to, Debiting debt Payments from a youth savings account without permission or notification, allowing loans and credit cards to be opened without my consent or knowledge, especially XXXX which was specifically granted during a XXXX when they were required to reduce interest rates for pre-Mobilization debt, Harassment of my Family, and friends to strong arm me into paying debts and now crediting debt to prevent me from closing my accounts and formally ending my affiliation with NFCU. I have spent several years repaying debts to NFCU properly and responsibly as to be a good citizen and not declare bankruptcy as I have seen others do to avoid paying their debts. However, today when I have no reported debts remaining on either my credit report or in any statement for the last 3 years, NFCU has informed me there is an outstanding debt of {$58.00} on my Share-Savings account from XXXX which I have never received a bill or can find any proof of in either online or paper statements. I only have a message from NFCU, via their website, stating the account has a debt, which also does not show on the site. I have attempted to proceed honorably with NFCU ; however it seems they are unwilling to let me sever my relationship with them without taking another pound of flesh. I have decided to fight this claim as a line in the sand that I will go no further. I 'm hoping this will help build a case against NFCU 's unethical and unprofessional business practices and prevent them from doing this to others. \nXXXX ( XXXX ), XXXX, XXXX XXXX XXXX",
+            "count" : 17
+          }, {
+            "item" : "1. PROCESSOR FAILED TO COMMUNICATE EFFECTIVELY AND IN A TIMELY FASHION WITH THE MEMBER 2. PROCESSOR FAILED TO OFFER BETTER OPTIONS/PRODUCTS FOR THE MEMBERS NEEDS AND FINANCIAL SITUATION 3. PROCESSOR FAILED TO PROCESS MEMBERS REFINANCE IN A TIMELY FASHION - ALLOWED RATE GUARANTEE TO EXPIRE 4. PROCESSOR FAILED TO PROVIDE CUSTOMER SERVICE AND REQUIRED MEMBER TO REDO NUMEROUS ITEMS BECAUSE FILE NOT HANDLED PROPERLY 5. PROCESSOR FAILED TO CLOSE REFINANCE ( STARTED XXXX 2016 AS CONVENTIONAL REFI - CHANGED IN XXXX 2016 TO FHA REFI AFTER PROBLEMS/COMPLAINANTS - AFTER COMPLAINTS RECEIVED AN EXTENTION OF THE LOCKED IN RATE AND WAS TOLD THAT MINIMAL MONIES WOULD BE OWED FOR CLOSING DUE TO PREMIUM PRICEING ( CONFIRMED IN XXXX 2016 ) - TO DATE STILL NO CLOSING 6. PROCESSOR FAILED TO USE APPROPRIATE DEMEANOR WHILE CONVERSING WITH MEMBER AND PORTRAYED A NEGATIVE ATTITUDE AND FORCEFUL/THREATENING PERSONA THAT WAS NOT HELPFUL AND DID NOT PROVIDE OPTIONS, BUT RATHER HAD A TAKE IT OR LEAVE IT ATTITUDE 7. PROCESSOR HAS CAUSED MEMBER FINANCIAL HARDSHIP DUE TO THE DELAY IN CLOSING - ( REFI WILL SAVE MEMBER SUBSTANTIAL MONEY ) WE ARE EXTREMELY FRUSTRATED AND HAVE COMPLAINED TO THE PROCESSOR, AND AT OUR LOCAL BRANCH WHERE WE ORIGINALLY FINANCED OUR HOME, REGARDING OUR UNHAPPINESS WITH THIS PROCESS AND THE BANKS FAILURE TO CLOSE THE REFINANCE OF OUR HOME THE RATE SHOULD BE LOCKED IN AT 3.75 % ( FHA ) - WITH PREMIUM PRICING THAT WOULD PAY XXXX POINTS ( MOST IF NOT ALL OF THE CLOSING COSTS ) AS PROMISED - ON A {$230000.00} LOAN - PAYMENTS WOULD BE APPROXIMATELY {$1600.00} UNTIL NOW WE DID NOT KNOW AN APROPRIATE VENUE TO FILE OUR COMPLAINT - A FRIEND TOLD US ABOUT THE CFPB AND THAT IS WHY WE ARE JUST KNOW FILING THIS ISSUE.",
+            "count" : 16
+          }, {
+            "item" : "I have an account with Equifax that was removed and has returned. \n\nXXXX : removed on XX/XX/2016 XXXX XXXX XXXX",
+            "count" : 15
+          }, {
+            "item" : "Last month my XXXX ordered google play for XXXX times. We did n't know his tablet will connect my paypal account with my husband 's debit card. After talking to XXXX from XXXX. They were able to refunded XXXX out of the XXXX orders a total of {$240.00} USD. \nHowever Navy Federal Credit Union refused to credit those refunded items after filing an unauthorized transaction form and charging {$29.00} for every single overdraw transactions since the account did not have enough money from the begining. Nfcu requested a letter from XXXX and paypal with the word FRAUD. google give us a letter of the issue. XXXX does n't because they were just in the middle of the mess. Our NFCU joint account was negative for more than XXXX. They suggested to closed account until clarified issue, but when i received a TAX REFUND in my personal account for more than XXXX they transfered that amount to the bad account without inform us. That tax $ was to pay bills and yes their credit card. However after several tries and the fax we sent NFCU Keep arguing they need to see the word FRAUD in the letters. Why XXXX understood the situation of my son with XXXX clicking without knowing and the bank wants to see the word XXXX? Why do the take our $ and transfered in to a now closed account and charged us XXXX overdraw fees for & lt ; XXXX times? When google refunded XXXX out of XXXX orders. \nThanks!",
+            "count" : 14
+          }, {
+            "item" : "I have several accounts on my credit in which I have asked the creditors to \" validate '' their information. Validate if I was ever late, details when, validate if a debt was mine- I just keep on getting same response : nothing. my rights under FCRA have been seriously violated. law says if a creditor can not validate/prove in 30 days of my dispute, they must remove. I am writing to you about XXXX, XXXX, XXXX, XXXX, XXXX, XXXX and XXXX. I will give account numbers upon request.",
+            "count" : 13
+          }, {
+            "item" : "I believe there was more grants available I was a single mom and still ca n't coordinate all the loans it took me to get my degree",
+            "count" : 12
+          }, {
+            "item" : "Someone used my credit car number to rent a car at ( XXXX ) & The bank PNC is charging me XXXX for something that 's a fraud. The bank sent me to collections which I disputed that because I am not willing to pay for a fraudulent transaction. I try to dispute it with the bank which they say they do n't have any records of anything yet they still trying to collect the money from me. I also tried to follow up with XXXX and they stated that they have no records either. I explain to them that I do n't have a license and that I am not even old enough to rent a car yet they still not dropping the matter. I also did not authorize such a large transaction.",
+            "count" : 11
+          }, {
+            "item" : "XX/XX/XXXX Dear Sir or Madam : This dispute regards a US Bank \" Easy Checking account '' XXXX, opened at the XXXX, XXXX, WA XXXX branch. \nIn essence, I asked for and opened a simple checking account with US Bank with {$25.00}. Not known to me, this account also contained a {$6000.00} Line of Credit, a Visa Card, and a monthly fee. Despite XXXX activity on the account from inception through today, my credit is in tatters and US Bank will do nothing to help. ( See attached US Bank letters ). \n\nWhat happened : I opened the checking account XX/XX/XXXX to handle the proceeds of a real estate transaction in California, which was then in process. The transaction failed ; although I did sell the property later on a private note. So I did not ever need the US Bank checking account, as all our other financial matters are conducted with XXXX here in XXXX WA. In fact, I have never executed a single transaction of any kind with US Bank, other than opening this account on that day. In fact, I forgot I even had this account. \n\nMy clear understanding ( see signature card copy attached ) was that I had opened a simple no-fee checking account. Now US Bank does have such a thing ; but apparently it is n't called \" Easy Checking Account ''. The intake person at US Bank wondered why they did n't give me that, while taking my dispute. There was no mention of a Visa card, Line of Credit, or fees at the point of sale. I already have both those items with my primary bank XXXX ( XXXX ). \n\n2 years and 2 months later, here in XX/XX/XXXX, I receive a letter from XXXX, a credit collection agency, asking for {$150.00} in delinquency monies. I was shocked. I returned to the bank branch and asked for an explanation. The Branch Manager told me that attached to my Easy Checking Account was a Line of Credit for {$6000.00} and also a Visa Card. He verified that the credit card had never been activated and the Line of Credit had never been accessed. He also told me that since the LOC and Visa card were attached to my Easy Checking Account, there were monthly fees attached. I had no idea. \n\nSo what happened was they drew down my initial {$25.00} deposit with the monthly fee, and then when it reached XXXX, began to draw from the Line of Credit to keep the Easy Checking Account afloat. This in turn required monthly payments to the Line of Credit from me. Finally, without so much as a phone call, they closed and \" charged off '' the entire account in XX/XX/XXXX to the XXXX Credit Reporting Agencies. \n\nI was aware of none of this. \n\nAfter much discussion, and then phoning US Bank 's dispute area, US Bank sent a letter ( attached ) stating they would do nothing change their delinquency report. So, on the advice of my real bank, XXXX, I paid in full the disputed amount of {$150.00} to the collection agency on XX/XX/XXXX. \n\nSome of the fallout from this mess is a 19.5 % increase ( {$340.00} annual increase ) to my auto insurance rates, per my agent, directly attributable to this credit blemish ( attached ). Also, we are attempting to downsize and purchase a new home. My lender has pointed to the XXXX to XXXX points extra I will be paying for a real estate loan. The cost is becoming astronomical ; and the cause of it all is a {$25.00} checking account, issued under what I consider deceptive circumstances. \n\nI am now turning to you folks to request that this black mark on my credit be removed from my credit report, and my good credit standing restored. \n\nThank you! \n\nXXXX",
+            "count" : 10
+          }, {
+            "item" : "I did not receive a statement for XX/XX/2017 with Citi Cards. I sent in the payment without the statement, just the check. I am now being charged a {$35.00} late fee that they refuse to remove.",
+            "count" : 9
+          }, {
+            "item" : "I previously disputed a debit ( XXXX XXXX XXXX XXXX ) with all XXXX credit reporting agencies ; because the debt was n't mine. All XXXX credit bureaus deleted the collection. Equifax deleted the debt on XXXX XXXX, 2016 and later reinserted the debt. This clearly violated my rights under section 6.11.As a result, I have been gravely affected and my score is suffering as a result. No notice was ever given which is also a violation, and I am requesting that this alleged debt be removed.",
+            "count" : 8
+          }, {
+            "item" : "I went to see XXXX XXXX XXXX XXXX in 2013, to get XXXX, on my first visit was the XXXX exam and how much my XXXX would cost me per XXXX. I give them my XXXX insurance card and a voucher of {$120.00} for my XXXX or XXXX. I was told that my exam was {$120.00}, I let the lady at the front desk know she can use my {$120.00} voucher to pay for the exam and XXXX will take care of the remaining balance. I told the doctor I would have to come back for my XXXX, do to money problems. The doctor told me to use the XXXX trials for two weeks to see if I would be happy with them. Once my two week was up, I went back to order the XXXX that 's when I was told I had a outstanding balance. Of which I never received any XXXX nor XXXX from them, I only received an exam.",
+            "count" : 7
+          }, {
+            "item" : "I have a credit card that I use to collect reward points to put toward cruises. In XX/XX/2016 I cashed in XXXX points toward my prepaid gratuities on an upcoming cruise. The cruise line never received the funds for the gratuities. I have been trying to get this fixed since last XXXX. I have been told something different by every person I have spoken to. Twice I have been \" escalated '' to management but no one from management will speak to me. Today I got an email from my cruise line that there was {$140.00} extra to pay on my cruise. When I questioned why I was told it was because this same credit card company has denied the points I have previously cashed in and demanded a refund from the cruise line. I received no communication from the credit card company about this. When I called my credit card company again I was escalated to management but have received no return call. I am now going to have to pay {$190.00} for gratuities that I should not have to plus another {$140.00} that I have already paid because of the credit card company. I have a case number of XXXX for my requests for the points to be returned.",
+            "count" : 6
+          }, {
+            "item" : "I reported fraudulent activity to Amex on my prepaid card which they assured me they would thoroughly investigate and would send me a new card. Less than 24 hours later I got a notice by email that the dispute was determined to be a valid charge and that I had violated the member terms and conditions so they were suspending my account.",
+            "count" : 5
+          }, {
+            "item" : "I have an account with both Citibank XXXX and Citibank NA. \n\nOn XX/XX/XXXX, I initiated an international wire transfer from Citibank XXXX worth XXXX from my personal account, to my Citibank NA account. \n\nFees : XXXX ( debited from my bank account in XXXX , NOT THE BALANCE ) Rate : XXXX for XXXX Balance : XXXX Incoming international wire transfer fee : XXXX Expected Balance : XXXX However, the balance credited to my account was {$9900.00}. It seems that an additional fee was levied. I am 100 % sure that Citibank XXXX did not charge any other fees because the balance sent was exactly the figure above. \n\nI called Citibank XXXX and they indicated that an intermediary bank was used, which, in this case, was Citibank New York. My branch is in California. The charge in this case is {$27.00} from what the customer service representative told me.",
+            "count" : 4
+          }, {
+            "item" : "To whom it may concern, Wanted to let you know Bank of America department of regulatory complaints refused to release my original funds following reversal of a fraudulent employment check in my closed account. BOA kept about XXXX of my nonfraudulent personal funds. Have been following up on this with my local state police as well as the police department local to the XXXX in XXXX XXXX, CT where the funds from the fraudulent employment check were deposited. Emailed CFPB previously about this matter. My account number at BOA was XXXX. Their Regulatory Complaints can be reached at XXXX XXXX. You can reach me at XXXX or email XXXXXXXXXXXX. \nThanks very much, XXXX XXXX XXXX XXXX XXXX XXXX",
+            "count" : 3
+          }, {
+            "item" : "URGENT! \nI want LoanCare to pay the HOA fees as agreed before I loose my home on XX/XX/XXXX due to a foreclosure sale. I received the following email on XX/XX/XXXX and I need clarification : Good Morning XXXX - The client has informed us that they will not be paying the outstanding HOA dues in the amount of $ XXXX on a $ XXXX loan. Also, the client is aware of the sale on XX/XX/XXXX, and are well aware that CA is not a super lien state. Thank you XXXX XXXX Mortgage Resolution Specialist- Default LC-Foreclosure Department LoanCare, XXXX O : XXXX F : XXXX XXXX : XXXXXXXXXXXX XXXX : www.myloancare.com A : XXXX , VA XXXX XXXX # XXXX I am NOT sure if there is a communication issue BUT I have sent the following emails as to my intentions last week and earlier today : XXXX Hello, Any updates on this matter? Also I explicitedly asked you all NOT to share my loan number and loan balance with the XXXX! Please let me know IF you will be paying the HOA fees. I mentioned several times that I will take care of the XXXX. I am only interested in the HOA fees being paid so this will stop the sale. However IF this is NOT feasible then I said to proceed with payment. I need your response before I loose my house. Thank you. XXXX XXXX XXXX XX/XX/XXXX Hello, Any updates on this matter? I was able to locate a statement from the XXXX XXXX HOA. The HOA stopped sending me statements years ago. I temporarily moved out of my townhome in XX/XX/XXXX and surprise I received 2 statements in the mail from the HOA a few weeks after I moved. One reflects a balance of {$6700.00} then a few days from that statement I received another statement reflecting {$20000.00}. The XXXX states I owe {$29000.00} in HOA fees through XX/XX/XXXX. The rest they are stating I owe to the XXXX : {$25000.00}. This is why I ask if you could please send a payment of the {$29000.00} to the XXXX XXXX HOA or even the {$31000.00} ( as per the Writ of Sale scheduled for XX/XX/XXXX )? XXXX XXXX Hopefully, LoanCare will be able to at least send me something in the mail that shows the HOA fees were paid in full and I will be able to appear on XX/XX/XXXX in the court to present that document to try to stop the sale? ******OR can you have some representatives from LOANCARE to be present at the sale on XX/XX/XXXX to issue this check to the HOA on that day to stop the sale of my townhome? ***** In summary I am asking for LoanCare to remit payment to the HOA ( XXXX XXXX ) in the amount of {$29000.00} or even in the amount of {$31000.00} ( per writ of sale ) to be on the safe side. Payment should be remitted to XXXX HOA c/o XXXX, CA XXXX. HOA ACCOUNT NUMBER : XXXX. Make check payable to XXXX XXXX. ( As I sent on XX/XX/XXXX in an attachment in an email to XXXX with Loan Care. Otherwise go ahead and proceed with the full payment of $ XXXX so the loan with stay in place and I wo n't become homeless next month.",
+            "count" : 2
+          }, {
+            "item" : "I had XXXX and was out of work for awhile and not able to make my payments I defaulted on my loan and it went into collections about a year later I started getting settlement offers in the mail I responded to the offer of 1/2 price of the {$510.00} On XX/XX/2017 I spoke with XXXX the manager of security finance and told i would paid the settlement of and I would send him an accord and satisfaction letter saying he agrees to the settlement of {$250.00} as payment in full and he agrees to removed the account off my credit file. XXXX signed to letter and sent it back to me and I made the payment per the terms of the accord and satisfaction letter.payment of {$250.00} was debited from my account on XX/XX/2017 and in XX/XX/XXXX I applied for a loan to get a car and was informed that I have a 30day late payment from security finance and that I owe {$430.00} still. I was turned down for the loan for because they are reporting that I am 30 days late and that I still have a balance of {$430.00} with that on my credit report it dropped my score from XXXX to XXXX",
+            "count" : 1
+          } ],
+          "smallest" : "_Focus receivables management calls twice a day about a debt. We have no debts with perfect credit, I read about this company and the Gov. should close their doors. They prey on the defenceless."
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888799,
+        "name" : "Company public response",
+        "dataTypeName" : "text",
+        "description" : "The company's optional, public-facing response to a consumer's complaint. Companies provide a public response to the CFPB, for posting on the public database, by selecting a response from a set list of options.",
+        "fieldName" : "company_public_response",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249495,
+        "width" : 376,
+        "cachedContents" : {
+          "largest" : "Company has responded to the consumer and the CFPB and chooses not to provide a public response",
+          "non_null" : 189931,
+          "null" : 572513,
+          "top" : [ {
+            "item" : "Company chooses not to provide a public response",
+            "count" : 20
+          }, {
+            "item" : "Company believes it acted appropriately as authorized by contract or law",
+            "count" : 19
+          }, {
+            "item" : "Company has responded to the consumer and the CFPB and chooses not to provide a public response",
+            "count" : 18
+          }, {
+            "item" : "Company can't verify or dispute the facts in the complaint",
+            "count" : 17
+          }, {
+            "item" : "Company believes complaint caused principally by actions of third party outside the control or direction of the company",
+            "count" : 16
+          }, {
+            "item" : "Company disputes the facts presented in the complaint",
+            "count" : 15
+          }, {
+            "item" : "Company believes complaint represents an opportunity for improvement to better serve consumers",
+            "count" : 14
+          }, {
+            "item" : "Company believes the complaint is the result of a misunderstanding",
+            "count" : 13
+          }, {
+            "item" : "Company believes complaint is the result of an isolated error",
+            "count" : 12
+          }, {
+            "item" : "Company believes complaint relates to a discontinued policy or procedure",
+            "count" : 11
+          } ],
+          "smallest" : "Company believes complaint caused principally by actions of third party outside the control or direction of the company"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888800,
+        "name" : "Company",
+        "dataTypeName" : "text",
+        "description" : "The complaint is about this company",
+        "fieldName" : "company",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249508,
+        "width" : 319,
+        "cachedContents" : {
+          "largest" : "Zwicker & Associates",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Wells Fargo & Company",
+            "count" : 20
+          }, {
+            "item" : "Bank of America",
+            "count" : 19
+          }, {
+            "item" : "Citibank",
+            "count" : 18
+          }, {
+            "item" : "JPMorgan Chase & Co.",
+            "count" : 17
+          }, {
+            "item" : "Ocwen",
+            "count" : 16
+          }, {
+            "item" : "Experian",
+            "count" : 15
+          }, {
+            "item" : "Equifax",
+            "count" : 14
+          }, {
+            "item" : "Nationstar Mortgage",
+            "count" : 13
+          }, {
+            "item" : "TransUnion Intermediate Holdings, Inc.",
+            "count" : 12
+          }, {
+            "item" : "Synchrony Financial",
+            "count" : 11
+          }, {
+            "item" : "Capital One",
+            "count" : 10
+          }, {
+            "item" : "U.S. Bancorp",
+            "count" : 9
+          }, {
+            "item" : "Navient Solutions, LLC.",
+            "count" : 8
+          }, {
+            "item" : "Amex",
+            "count" : 7
+          }, {
+            "item" : "Navy FCU",
+            "count" : 6
+          }, {
+            "item" : "Loan Care",
+            "count" : 5
+          }, {
+            "item" : "Barclays PLC",
+            "count" : 4
+          }, {
+            "item" : "Amsher Collection Services, Inc.",
+            "count" : 3
+          }, {
+            "item" : "Round Point Mortgage",
+            "count" : 2
+          }, {
+            "item" : "ACE Cash Express Inc.",
+            "count" : 1
+          } ],
+          "smallest" : "(Former)Shapiro, Swertfeger & Hasty, LLP"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888801,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "description" : "The consumer’s reported mailing state for the complaint",
+        "fieldName" : "state",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249502,
+        "width" : 50,
+        "cachedContents" : {
+          "largest" : "WY",
+          "non_null" : 756529,
+          "null" : 5915,
+          "top" : [ {
+            "item" : "VA",
+            "count" : 20
+          }, {
+            "item" : "CA",
+            "count" : 19
+          }, {
+            "item" : "NY",
+            "count" : 18
+          }, {
+            "item" : "GA",
+            "count" : 17
+          }, {
+            "item" : "CT",
+            "count" : 16
+          }, {
+            "item" : "TX",
+            "count" : 15
+          }, {
+            "item" : "FL",
+            "count" : 14
+          }, {
+            "item" : "OH",
+            "count" : 13
+          }, {
+            "item" : "NV",
+            "count" : 12
+          }, {
+            "item" : "NC",
+            "count" : 11
+          }, {
+            "item" : "PA",
+            "count" : 10
+          }, {
+            "item" : "NJ",
+            "count" : 9
+          }, {
+            "item" : "WA",
+            "count" : 8
+          }, {
+            "item" : "IL",
+            "count" : 7
+          }, {
+            "item" : "MI",
+            "count" : 6
+          }, {
+            "item" : "MA",
+            "count" : 5
+          }, {
+            "item" : "TN",
+            "count" : 4
+          }, {
+            "item" : "MO",
+            "count" : 3
+          }, {
+            "item" : "MN",
+            "count" : 2
+          }, {
+            "item" : "WI",
+            "count" : 1
+          } ],
+          "smallest" : "AA"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888802,
+        "name" : "ZIP code",
+        "dataTypeName" : "text",
+        "description" : "Mailing ZIP code provided by the consumer. This field may: i) include the first five digits of a ZIP code; ii) include the first three digits of a ZIP code (if the consumer consented to publication of their complaint narrative); or iii) be blank (if ZIP codes have been submitted with non-numeric values, if there are less than 20,000 people in a given ZIP code, or if the complaint has an address outside of the United States).",
+        "fieldName" : "zip_code",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249503,
+        "width" : 63,
+        "cachedContents" : {
+          "largest" : "999XX",
+          "non_null" : 756516,
+          "null" : 5928,
+          "top" : [ {
+            "item" : "302XX",
+            "count" : 20
+          }, {
+            "item" : "294XX",
+            "count" : 19
+          }, {
+            "item" : "285XX",
+            "count" : 18
+          }, {
+            "item" : "47150",
+            "count" : 17
+          }, {
+            "item" : "070XX",
+            "count" : 16
+          }, {
+            "item" : "928XX",
+            "count" : 15
+          }, {
+            "item" : "33319",
+            "count" : 14
+          }, {
+            "item" : "20910",
+            "count" : 13
+          }, {
+            "item" : "631XX",
+            "count" : 12
+          }, {
+            "item" : "43933",
+            "count" : 11
+          }, {
+            "item" : "77583",
+            "count" : 10
+          }, {
+            "item" : "91706",
+            "count" : 9
+          }, {
+            "item" : "07950",
+            "count" : 8
+          }, {
+            "item" : "38474",
+            "count" : 7
+          }, {
+            "item" : "468XX",
+            "count" : 6
+          }, {
+            "item" : "19006",
+            "count" : 5
+          }, {
+            "item" : "18428",
+            "count" : 4
+          }, {
+            "item" : "2011-",
+            "count" : 3
+          }, {
+            "item" : "11226",
+            "count" : 2
+          }, {
+            "item" : "22304",
+            "count" : 1
+          } ],
+          "smallest" : ",2085"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888803,
+        "name" : "Tags",
+        "dataTypeName" : "text",
+        "description" : "Data that supports easier searching and sorting of complaints submitted by or on behalf of consumers",
+        "fieldName" : "tags",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34590265,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Servicemember",
+          "non_null" : 107113,
+          "null" : 655331,
+          "top" : [ {
+            "item" : "Older American",
+            "count" : 20
+          }, {
+            "item" : "Servicemember",
+            "count" : 19
+          }, {
+            "item" : "Older American, Servicemember",
+            "count" : 18
+          } ],
+          "smallest" : "Older American"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888804,
+        "name" : "Consumer consent provided?",
+        "dataTypeName" : "text",
+        "description" : "Identifies whether the consumer opted in to publish their complaint narrative",
+        "fieldName" : "consumer_consent_provided",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 34590266,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "Other",
+          "non_null" : 746772,
+          "null" : 15672,
+          "top" : [ {
+            "item" : "N/A",
+            "count" : 20
+          }, {
+            "item" : "Consent provided",
+            "count" : 19
+          }, {
+            "item" : "Consent not provided",
+            "count" : 18
+          }, {
+            "item" : "Other",
+            "count" : 17
+          }, {
+            "item" : "Consent withdrawn",
+            "count" : 16
+          } ],
+          "smallest" : "Consent not provided"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888805,
+        "name" : "Submitted via",
+        "dataTypeName" : "text",
+        "description" : "How the complaint was submitted to CFPB",
+        "fieldName" : "submitted_via",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249504,
+        "width" : 110,
+        "cachedContents" : {
+          "largest" : "Web",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Phone",
+            "count" : 20
+          }, {
+            "item" : "Web",
+            "count" : 19
+          }, {
+            "item" : "Fax",
+            "count" : 18
+          }, {
+            "item" : "Referral",
+            "count" : 17
+          }, {
+            "item" : "Postal mail",
+            "count" : 16
+          }, {
+            "item" : "Email",
+            "count" : 15
+          } ],
+          "smallest" : "Email"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888806,
+        "name" : "Date sent to company",
+        "dataTypeName" : "calendar_date",
+        "description" : "The date the CFPB sent the complaint to the company",
+        "fieldName" : "date_sent_to_company",
+        "position" : 14,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 28249507,
+        "width" : 141,
+        "cachedContents" : {
+          "largest" : "2017-04-21T20:47:28",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2017-02-07T16:25:28",
+            "count" : 20
+          }, {
+            "item" : "2017-04-04T14:45:14",
+            "count" : 19
+          }, {
+            "item" : "2017-03-04T18:28:42",
+            "count" : 18
+          }, {
+            "item" : "2017-04-04T19:57:20",
+            "count" : 17
+          }, {
+            "item" : "2017-04-13T15:02:31",
+            "count" : 16
+          }, {
+            "item" : "2017-02-08T15:10:18",
+            "count" : 15
+          }, {
+            "item" : "2017-04-06T23:06:49",
+            "count" : 14
+          }, {
+            "item" : "2017-04-12T14:11:07",
+            "count" : 13
+          } ],
+          "smallest" : "2011-12-01T05:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888807,
+        "name" : "Company response to consumer",
+        "dataTypeName" : "text",
+        "description" : "This is how the company responded",
+        "fieldName" : "company_response",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249509,
+        "width" : 204,
+        "cachedContents" : {
+          "largest" : "Untimely response",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Closed with explanation",
+            "count" : 20
+          }, {
+            "item" : "Closed",
+            "count" : 19
+          }, {
+            "item" : "Closed with non-monetary relief",
+            "count" : 18
+          }, {
+            "item" : "Closed with monetary relief",
+            "count" : 17
+          }, {
+            "item" : "Untimely response",
+            "count" : 16
+          }, {
+            "item" : "Closed with relief",
+            "count" : 15
+          }, {
+            "item" : "Closed without relief",
+            "count" : 14
+          }, {
+            "item" : "In progress",
+            "count" : 13
+          } ],
+          "smallest" : "Closed"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888808,
+        "name" : "Timely response?",
+        "dataTypeName" : "text",
+        "description" : "Whether the company gave a timely response",
+        "fieldName" : "timely",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249510,
+        "width" : 115,
+        "cachedContents" : {
+          "largest" : "Yes",
+          "non_null" : 762444,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Yes",
+            "count" : 20
+          }, {
+            "item" : "No",
+            "count" : 19
+          } ],
+          "smallest" : "No"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888809,
+        "name" : "Consumer disputed?",
+        "dataTypeName" : "text",
+        "description" : "Whether the consumer disputed the company’s response",
+        "fieldName" : "consumer_disputed",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 28249511,
+        "width" : 128,
+        "cachedContents" : {
+          "largest" : "Yes",
+          "non_null" : 715055,
+          "null" : 47389,
+          "top" : [ {
+            "item" : "No",
+            "count" : 20
+          }, {
+            "item" : "Yes",
+            "count" : 19
+          } ],
+          "smallest" : "No"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 261888810,
+        "name" : "Complaint ID",
+        "dataTypeName" : "number",
+        "description" : "The unique identification number for a complaint",
+        "fieldName" : "complaint_id",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 28249492,
+        "width" : 161,
+        "cachedContents" : {
+          "largest" : "2447693",
+          "non_null" : 762444,
+          "average" : "1286840.301030633",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2325139",
+            "count" : 20
+          }, {
+            "item" : "2415454",
+            "count" : 19
+          }, {
+            "item" : "2371969",
+            "count" : 18
+          }, {
+            "item" : "2417756",
+            "count" : 17
+          }, {
+            "item" : "2434827",
+            "count" : 16
+          }, {
+            "item" : "2296622",
+            "count" : 15
+          }, {
+            "item" : "2422611",
+            "count" : 14
+          }, {
+            "item" : "2431725",
+            "count" : 13
+          } ],
+          "smallest" : "1",
+          "sum" : "981143666479"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "left"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "date_received"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Complaint",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "pjxg-ve4m",
+        "displayName" : "Shannon Files",
+        "roleName" : "administrator",
+        "screenName" : "Shannon Files",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 261888793,
+            "type" : "column"
+          }
+        } ]
+      },
+      "ratings" : {
+        "rating" : 100
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pjxg-ve4m",
+        "displayName" : "Shannon Files",
+        "roleName" : "administrator",
+        "screenName" : "Shannon Files",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "24535427-A91D-4587-A36C-E951DAB9F534", 1, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:07:42", "Consumer Loan", "Vehicle loan", "Managing the loan or lease", null, null, null, "Wells Fargo & Company", "VA", "24540", null, "N/A", "Phone", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "468882" ]
+, [ 2, "CD704046-D5E6-4B1D-AEA9-AFF6D28B901E", 2, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:13:15", "Bank account or service", "Checking account", "Using a debit or ATM card", null, null, null, "Wells Fargo & Company", "CA", "95992", "Older American", "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "468889" ]
+, [ 3, "82367CA1-B156-4D66-A448-2ED61A971F8F", 3, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:17:51", "Bank account or service", "Checking account", "Account opening, closing, or management", null, null, null, "Santander Bank US", "NY", "10065", null, "N/A", "Fax", "2013-07-31T04:00:00", "Closed", "Yes", "No", "468879" ]
+, [ 4, "1E972303-B34C-4834-9A6A-FE34C692CDF7", 4, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:35:59", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "Wells Fargo & Company", "GA", "30084", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "468949" ]
+, [ 5, "08CA0A2D-37DD-4240-9354-72DB40F17748", 5, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:40:05", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "Franklin Credit Management", "CT", "06106", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "475823" ]
+, [ 6, "AA4267AA-AFE8-48DD-A38B-DBBD8187F857", 6, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:49:36", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "Bank of America", "TX", "75025", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "468981" ]
+, [ 7, "7B88E34C-F2F5-4C8F-8C0E-DC73EE3FBED4", 7, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T16:58:25", "Debt collection", "Other (i.e. phone, health club, etc.)", "Cont'd attempts collect debt not owed", "Debt is not mine", null, null, "NRA Group, LLC", "VA", "20147", null, "N/A", "Web", "2013-08-07T04:00:00", "Closed with non-monetary relief", "Yes", "No", "467801" ]
+, [ 8, "8CE5EF3F-9EAA-4898-97D7-733523B377DC", 8, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:00:25", "Debt collection", "I do not know", "Cont'd attempts collect debt not owed", "Debt was paid", null, null, "SunTrust Banks, Inc.", "FL", "32818", null, "N/A", "Referral", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "Yes", "475728" ]
+, [ 9, "089D1BA0-0A73-4C7E-9893-519E46EEEF20", 9, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:00:35", "Credit card", null, "Billing statement", null, null, null, "Citibank", "OH", "45247", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469026" ]
+, [ 10, "240813B2-BF65-45C3-925F-F0D2DDA7A0E5", 10, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:00:54", "Mortgage", "Other mortgage", "Loan servicing, payments, escrow account", null, null, null, "Wells Fargo & Company", "NV", "89511", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469035" ]
+, [ 11, "7B0B0F66-4BFA-47E6-A853-851C99703599", 11, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:00:56", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "NC", "27949", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469037" ]
+, [ 12, "0175675A-4C9D-40F1-BA7B-6E3D3FDB4EC1", 12, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:00:57", "Mortgage", "Other mortgage", "Loan servicing, payments, escrow account", null, null, null, "JPMorgan Chase & Co.", "CA", "90703", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469284" ]
+, [ 13, "A96A09FE-42BB-4083-8BD4-F264AD632A6C", 13, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:01:05", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Citibank", "CA", "95821", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "480488" ]
+, [ 14, "0D65E6AC-4B6A-410B-9FE5-988EC4D45684", 14, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:03:27", "Debt collection", "Credit card", "Communication tactics", "Frequent or repeated calls", null, null, "Asset Management Professionals, LLC", "PA", "19145", "Older American", "N/A", "Phone", "2013-08-01T04:00:00", "Closed with explanation", "No", null, "468904" ]
+, [ 15, "E4FFC028-90DE-4529-8973-D6D916BE47CC", 15, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:03:27", "Debt collection", "Credit card", "Communication tactics", "Frequent or repeated calls", null, null, "Wells Fargo & Company", "PA", "19145", "Older American", "N/A", "Phone", "2013-08-01T04:00:00", "Closed with non-monetary relief", "Yes", "No", "468905" ]
+, [ 16, "525E988D-7F79-43B1-8564-B19994624834", 16, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:11:29", "Mortgage", "Conventional fixed mortgage", "Loan modification,collection,foreclosure", null, null, null, "JPMorgan Chase & Co.", "NY", "14092", null, "N/A", "Phone", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469057" ]
+, [ 17, "DB7E0BDB-055A-4475-8C60-1A01745AA7E8", 17, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:14:46", "Mortgage", "Conventional fixed mortgage", "Loan modification,collection,foreclosure", null, null, null, "Ocwen", "FL", "33426", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "469060" ]
+, [ 18, "956CE91F-3C47-4FEC-B5EA-A67B07D4D109", 18, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:25:20", "Mortgage", "Conventional fixed mortgage", "Loan modification,collection,foreclosure", null, null, null, "JPMorgan Chase & Co.", "NY", "10019", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469070" ]
+, [ 19, "41E7F9EB-19B4-44D2-BB18-9E101D9B5BD0", 19, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:26:16", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "Citibank", "NJ", "07604", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "472236" ]
+, [ 20, "4FF1FC5A-7517-47F0-93FC-0893A133E6F6", 20, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:52:19", "Credit card", null, "APR or interest rate", null, null, null, "Synchrony Financial", "WA", "98548", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with monetary relief", "Yes", "No", "469131" ]
+, [ 21, "138524D0-8E50-4AB0-9322-B414E079D3A7", 21, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:52:29", "Credit reporting", null, "Credit monitoring or identity protection", "Problem cancelling or closing account", null, null, "Experian", "CA", "90034", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with monetary relief", "Yes", "No", "474204" ]
+, [ 22, "5A528F90-158F-41D9-B04A-D26378D3067A", 22, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:55:31", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "HI", "96793", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469138" ]
+, [ 23, "DC2A2CD0-1F3C-4E5A-937C-6F09819DFBF4", 23, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:58:24", "Mortgage", "Other mortgage", "Application, originator, mortgage broker", null, null, null, "JPMorgan Chase & Co.", "FL", "32825", null, "N/A", "Postal mail", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469143" ]
+, [ 24, "1AFFC369-8442-44A5-A6BE-2FDF67285EE4", 24, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T17:59:47", "Mortgage", "Conventional fixed mortgage", "Application, originator, mortgage broker", null, null, null, "Wells Fargo & Company", "NY", "10605", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with non-monetary relief", "Yes", "No", "480173" ]
+, [ 25, "B063BC6B-F70D-4C7F-A52A-49C310BC7DF7", 25, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:00:08", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Ocwen", "NY", "14467", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469360" ]
+, [ 26, "FBA615B0-07EB-4FA6-932F-FC149CDDC01A", 26, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:01:04", "Mortgage", "Other mortgage", "Loan servicing, payments, escrow account", null, null, null, "U.S. Bancorp", "CA", "92591", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with monetary relief", "Yes", "No", "469632" ]
+, [ 27, "B73795CB-749F-4CBE-A2AF-56C99E7BA1C3", 27, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:09:33", "Mortgage", "Conventional adjustable mortgage (ARM)", "Application, originator, mortgage broker", null, null, null, "Bank of America", "IL", "60443", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469173" ]
+, [ 28, "83623860-B59B-491C-B73D-5BF1F1D0C6AD", 28, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:12:34", "Bank account or service", "Other bank product/service", "Deposits and withdrawals", null, null, null, "Wells Fargo & Company", "CA", "96088", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469185" ]
+, [ 29, "227B6647-D1C6-4210-9364-1DC1ECC8DC58", 29, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:17:57", "Credit reporting", null, "Incorrect information on credit report", "Public record", null, null, "Equifax", "CA", "91605", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469201" ]
+, [ 31, "0827832F-4703-4E02-B58E-132071B518CC", 31, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:48:51", "Debt collection", "Other (i.e. phone, health club, etc.)", "Cont'd attempts collect debt not owed", "Debt was paid", null, null, "Northland Group, Inc.", "FL", "32233", "Servicemember", "N/A", "Referral", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469252" ]
+, [ 32, "DC884FEB-74EC-4CFB-A1CB-D3B9EF884957", 32, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:49:04", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "SunTrust Banks, Inc.", "FL", "32084", null, "N/A", "Referral", "2013-08-02T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469863" ]
+, [ 33, "085CA9F5-9949-48B7-80A7-32B882CCA55E", 33, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:49:23", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "FL", "33234", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469255" ]
+, [ 34, "77B41C55-4C55-408B-B021-54672EB31165", 34, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:52:03", "Mortgage", "Other mortgage", "Loan servicing, payments, escrow account", null, null, null, "SunTrust Banks, Inc.", "FL", "32505", null, "N/A", "Referral", "2013-08-02T04:00:00", "Closed", "Yes", "No", "469811" ]
+, [ 35, "7AB6A15D-FEF3-4814-8363-D2357CA46E8A", 35, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T18:53:03", "Consumer Loan", "Vehicle loan", "Managing the loan or lease", null, null, null, "Santander Consumer USA Holdings Inc", "CA", "92677", null, "N/A", "Referral", "2013-08-05T04:00:00", "Closed", "Yes", "Yes", "479329" ]
+, [ 36, "B468E22F-359B-4DF6-8388-4ECC047C0329", 36, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T19:00:41", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Land/Home Financial Services", "MI", "48382", null, "N/A", "Fax", "2013-08-06T04:00:00", "Closed with explanation", "No", null, "454668" ]
+, [ 37, "8E5FE3E9-E2ED-471D-9DDA-01E9BB449CF9", 37, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T19:01:04", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "JPMorgan Chase & Co.", "NJ", "08530", null, "N/A", "Postal mail", "2013-07-30T04:00:00", "Closed with monetary relief", "Yes", "No", "475273" ]
+, [ 38, "579F7817-2A9C-4A7C-A8B2-4ED62032D0B9", 38, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T19:12:14", "Credit card", null, "Delinquent account", null, null, null, "Amex", "TX", "78232", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with monetary relief", "Yes", "No", "479990" ]
+, [ 39, "DDD6E0FF-3136-48F1-B251-0BBED0E86438", 39, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T19:18:17", "Mortgage", "FHA mortgage", "Loan modification,collection,foreclosure", null, null, null, "Nationstar Mortgage", "GA", "30041", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469293" ]
+, [ 40, "0A1B708F-B775-4445-921D-69B8090F8981", 40, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T19:23:16", "Bank account or service", "(CD) Certificate of deposit", "Account opening, closing, or management", null, null, null, "Wells Fargo & Company", "TX", "77381", null, "N/A", "Postal mail", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469309" ]
+, [ 41, "CA61495E-FF5E-4352-9273-E0CC90FB842E", 41, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T19:35:52", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "Ocwen", "MA", "02368", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469334" ]
+, [ 43, "4FB3E213-AC47-4A2F-9480-E54891D6A9DE", 43, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:04:15", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "CIT Bank National Association", "NY", "11101", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469487" ]
+, [ 44, "75EB8994-46EE-4CAD-AC3B-3F7315C58D75", 44, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:10:57", "Mortgage", "Other mortgage", "Loan servicing, payments, escrow account", null, null, null, "Bank of America", "CA", "91701", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469394" ]
+, [ 45, "CF349FA0-00DA-4EC6-B1C5-758E48208144", 45, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:19:09", "Debt collection", "I do not know", "Communication tactics", "Frequent or repeated calls", null, null, "Alpine Financial Solutions, Inc.", "KY", "42303", "Older American", "N/A", "Postal mail", "2013-12-04T05:00:00", "Closed with explanation", "Yes", "No", "469408" ]
+, [ 46, "95A8AF19-24DB-449E-8BFC-B847A61A55E4", 46, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:22:40", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "Ditech Financial LLC", "TN", "37218", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469411" ]
+, [ 47, "FC774B71-F0A3-4022-80DF-1BAAF9926344", 47, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:23:21", "Bank account or service", "Checking account", "Problems caused by my funds being low", null, null, null, "Wells Fargo & Company", "NJ", "08618", "Older American", "N/A", "Phone", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469414" ]
+, [ 48, "B9F2A410-6A94-47A8-8C03-EFB8D8427293", 48, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:27:31", "Mortgage", "FHA mortgage", "Loan modification,collection,foreclosure", null, null, null, "Citibank", "GA", "30135", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469423" ]
+, [ 49, "097C4D89-B2CE-4E16-9FF2-142AFD736ECA", 49, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:28:27", "Credit reporting", null, "Improper use of my credit report", "Report improperly shared by CRC", null, null, "Equifax", "MO", "64725", null, "N/A", "Fax", "2013-07-29T04:00:00", "Closed with explanation", "Yes", "No", "479282" ]
+, [ 50, "F5796B18-A77A-4DCB-B67B-E8C0773EDEF0", 50, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:31:05", "Mortgage", "Conventional fixed mortgage", "Settlement process and costs", null, null, null, "U.S. Bancorp", "MN", "55414", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469428" ]
+, [ 51, "3A2F472C-2286-4FF9-B3B5-C458C8B70593", 51, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:34:48", "Credit card", null, "Billing disputes", null, null, null, "Capital One", "FL", "32226", "Servicemember", "N/A", "Web", "2013-07-29T04:00:00", "Closed with explanation", "Yes", "No", "475777" ]
+, [ 52, "80119BB7-6A25-478A-8A34-04EB88110CD6", 52, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:37:53", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "Wells Fargo & Company", "CA", "92277", null, "N/A", "Web", "2013-08-05T04:00:00", "Closed with explanation", "Yes", "No", "469446" ]
+, [ 53, "A50E79A9-E39D-4C11-AABE-348ED0E1F921", 53, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:38:54", "Bank account or service", "Checking account", "Account opening, closing, or management", null, null, null, "First Tennessee Bank", "TN", "37806", "Servicemember", "N/A", "Phone", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469447" ]
+, [ 54, "5F81D5B9-F349-4A8B-9797-62DA1FD504FC", 54, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:40:14", "Student loan", "Non-federal student loan", "Repaying your loan", "Repaying your loan", null, null, "Discover", "MA", "02043", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "467427" ]
+, [ 55, "BFB97CA4-48BE-4365-A7D6-2D9DB051B373", 55, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:40:50", "Mortgage", "Conventional fixed mortgage", "Loan modification,collection,foreclosure", null, null, null, "Wells Fargo & Company", "CA", "91741", null, "N/A", "Phone", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "464039" ]
+, [ 56, "4CAA0685-44BB-4337-BEAD-C7F0B4DBACC2", 56, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:47:22", "Mortgage", "Conventional fixed mortgage", "Application, originator, mortgage broker", null, null, null, "Bank of America", "CA", "91320", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469461" ]
+, [ 57, "24DBDB04-6958-45F2-AF9E-E8682565E4E8", 57, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:56:29", "Credit card", null, "Credit line increase/decrease", null, null, null, "Citibank", "WI", "53066", "Older American", "N/A", "Phone", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469473" ]
+, [ 58, "782DC6B4-5154-4A69-B1CE-AE69FA8835ED", 58, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T20:59:01", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Ocwen", "CA", "95765", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469479" ]
+, [ 59, "3B21EE0D-C75A-4EEF-A272-2DB7152E6A58", 59, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:08:55", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "CIT Bank National Association", "CA", "95363", null, "N/A", "Phone", "2013-07-31T04:00:00", "Closed", "Yes", "No", "469499" ]
+, [ 60, "899FE10B-74E6-4787-94E0-998A661AB5ED", 60, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:10:30", "Debt collection", "Credit card", "Communication tactics", "Threatened to take legal action", null, null, "Borenstein & Associates, LLC", "WY", "82605", null, "N/A", "Web", "2013-09-17T04:00:00", "Closed", "Yes", "No", "469501" ]
+, [ 61, "B31406E5-832F-4119-AAA6-7FC933B49774", 61, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:16:40", "Mortgage", "Conventional fixed mortgage", "Settlement process and costs", null, null, null, "Houston Home Loan, Inc.", "TX", "77386", null, "N/A", "Web", "2013-08-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469513" ]
+, [ 62, "E63D57F8-FD1D-4D66-858E-DAC1F516C5F4", 62, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:21:17", "Mortgage", "Other mortgage", "Loan servicing, payments, escrow account", null, null, null, "Ocwen", "NY", "10038", null, "N/A", "Web", "2013-08-13T04:00:00", "Closed", "Yes", "No", "480183" ]
+, [ 63, "137858EB-5CBB-48AA-B6AF-67883D0EC26C", 63, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:25:03", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "Ocwen", "VA", "24112", "Older American", "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469525" ]
+, [ 64, "F5ED65C0-B085-44AA-8CE5-DCAD3C7939AE", 64, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:30:51", "Bank account or service", "Other bank product/service", "Problems caused by my funds being low", null, null, null, "Bank of America", "NY", "11716", "Older American, Servicemember", "N/A", "Phone", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469537" ]
+, [ 65, "4CEF7AFF-F031-4922-ADD2-6C5A94E362A4", 65, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:31:19", "Credit reporting", null, "Incorrect information on credit report", "Information is not mine", null, null, "Fidelity National Information Services, Inc. (FNIS)", "CT", "06514", null, "N/A", "Referral", "2013-08-21T04:00:00", "Closed with explanation", "Yes", "No", "469507" ]
+, [ 66, "1F0B38D3-5225-4048-8231-7F8FDF45437C", 66, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T21:31:38", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "People's United Bank", "CT", "06514", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469508" ]
+, [ 67, "9862D170-C478-4F57-AB69-C31C554149EB", 67, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T22:07:01", "Mortgage", "Home equity loan or line of credit", "Loan servicing, payments, escrow account", null, null, null, "Citizens Financial Group, Inc.", "VT", "05770", "Servicemember", "N/A", "Web", "2013-08-01T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469589" ]
+, [ 68, "0027331E-3A45-4524-87B5-C11AAC4EF877", 68, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T22:54:12", "Consumer Loan", "Vehicle lease", "Managing the loan or lease", null, null, null, "Ally Financial Inc.", "MI", "48238", null, "N/A", "Fax", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469241" ]
+, [ 69, "CA0FA789-72A1-4AE2-AF2E-36F7D50D7E62", 69, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T22:14:32", "Consumer Loan", "Vehicle lease", "Managing the loan or lease", null, null, null, "Asset Management Outsourcing, Inc.", "NY", "11030", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469606" ]
+, [ 70, "268FC726-99AF-44C1-BF0E-A2ABA6A96791", 70, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T22:58:52", "Credit card", null, "Payoff process", null, null, null, "Wells Fargo & Company", "NV", "89108", "Servicemember", "N/A", "Phone", "2013-08-02T04:00:00", "Closed with explanation", "Yes", "No", "470828" ]
+, [ 71, "EA0000D4-F477-44AE-878F-24EE9BC2DD3E", 71, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T23:01:38", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "CA", "95219", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with non-monetary relief", "Yes", "No", "470831" ]
+, [ 72, "CDFDBC89-E668-4D1E-AB2F-F74BDB83D39A", 72, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T22:20:03", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "TD Bank US Holding Company", "NJ", "07656", null, "N/A", "Postal mail", "2013-07-31T04:00:00", "Closed with monetary relief", "Yes", "No", "480463" ]
+, [ 73, "1B7F8601-1A80-4590-A26D-37B0CEB13C60", 73, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T22:20:57", "Credit reporting", null, "Unable to get credit report/credit score", "Problem getting my free annual report", null, null, "TransUnion Intermediate Holdings, Inc.", "CO", "80247", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with non-monetary relief", "Yes", "No", "479873" ]
+, [ 74, "9C5F5A9B-3094-4E85-925D-4A8157CAECD4", 74, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T23:31:46", "Bank account or service", "Checking account", "Using a debit or ATM card", null, null, null, "JPMorgan Chase & Co.", "NY", "11772", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "472678" ]
+, [ 75, "0141BB21-51B9-4121-B384-87526E9F49E3", 75, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T22:53:54", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "Wells Fargo & Company", "FL", "33326", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469641" ]
+, [ 76, "BDEA0853-27D5-4323-B16D-FEA3CA8A024C", 76, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T23:38:41", "Bank account or service", "Savings account", "Deposits and withdrawals", null, null, null, "JPMorgan Chase & Co.", "NY", "10469", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "470665" ]
+, [ 77, "3AD78920-F2F9-4B41-8724-57AFC053BFCF", 77, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T23:48:37", "Credit card", null, "Closing/Cancelling account", null, null, null, "Citibank", "TX", "78249", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "470852" ]
+, [ 78, "CB918D5D-8A65-4647-9153-7763C98761EC", 78, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T00:02:29", "Bank account or service", "Checking account", "Account opening, closing, or management", null, null, null, "Wells Fargo & Company", "GA", "30680", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with non-monetary relief", "Yes", "Yes", "470863" ]
+, [ 79, "8C51B721-7E0D-4278-BA43-A14DA36B5A11", 79, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:00:13", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "MI", "49042", null, "N/A", "Referral", "2013-08-02T04:00:00", "Closed with explanation", "Yes", "No", "469653" ]
+, [ 80, "4ADE916D-FD63-4A4C-A0FB-8D0B65F1A453", 80, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:00:25", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Ocwen", "NY", "11230", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "455630" ]
+, [ 81, "3ACD1E99-E57D-44C6-B320-C9CCA6B5C613", 81, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:00:28", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Wells Fargo & Company", "CA", "95020", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469660" ]
+, [ 82, "ACFB8B80-9193-43A4-94D1-8BD625D78EE2", 82, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:00:31", "Mortgage", "Home equity loan or line of credit", "Loan modification,collection,foreclosure", null, null, null, "JPMorgan Chase & Co.", "AZ", "85138", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "467092" ]
+, [ 83, "EEFBD9D5-8C04-453A-91DA-5FA8AF823772", 83, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:00:37", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Wells Fargo & Company", "NY", "10803", null, "N/A", "Referral", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "469664" ]
+, [ 84, "44D910B4-D5C1-4364-A9CA-79B9BCA7A1A7", 84, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:00:40", "Credit reporting", null, "Incorrect information on credit report", "Account status", null, null, "Ocwen", "MA", "02126", null, "N/A", "Referral", "2013-08-01T04:00:00", "Closed", "Yes", "No", "469666" ]
+, [ 85, "09CE42C1-43C7-4B6C-9A92-935A787A165E", 85, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T01:07:10", "Credit card", null, "Billing statement", null, null, null, "JPMorgan Chase & Co.", "DE", "19809", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with monetary relief", "Yes", "No", "479338" ]
+, [ 86, "7DC53E6F-DD76-40EA-8BE9-5D099CCC8C0C", 86, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T01:07:26", "Bank account or service", "Checking account", "Deposits and withdrawals", null, null, null, "Santander Bank US", "NJ", "07106", null, "N/A", "Web", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "470903" ]
+, [ 87, "A4A17853-AFC5-4926-A54B-D735623887CC", 87, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:06:08", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "HSBC North America Holdings Inc.", "OH", "44112", "Older American", "N/A", "Phone", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469669" ]
+, [ 88, "5978B82F-74C6-4C7E-B38A-98731A693035", 88, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:06:28", "Credit reporting", null, "Credit reporting company's investigation", "Problem with statement of dispute", null, null, "Experian", "NY", "14622", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "469670" ]
+, [ 89, "380BCDF9-842B-49CE-911A-FB81634E8365", 89, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T00:36:34", "Debt collection", "Credit card", "Taking/threatening an illegal action", "Sued w/o proper notification of suit", null, null, "Encore Capital Group", "NY", "14212", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "487029" ]
+, [ 90, "51382EB8-9927-4863-9929-DE28679F2054", 90, 1467791352, "912605", 1467791352, "912605", null, "2013-07-29T23:18:01", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "Ocwen", "IN", "47265", "Older American", "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469678" ]
+, [ 91, "7EE00980-9188-40F8-B6A2-4B35AA4FF959", 91, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T01:18:02", "Debt collection", "I do not know", "Cont'd attempts collect debt not owed", "Debt is not mine", null, null, "Fidelity National Information Services, Inc. (FNIS)", "CO", "81302", null, "N/A", "Web", "2013-09-17T04:00:00", "Closed with explanation", "Yes", "No", "469732" ]
+, [ 92, "876E927B-02CA-4D31-A96E-B0CEA77904DD", 92, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T01:16:56", "Credit card", null, "Payoff process", null, null, null, "Citibank", "NJ", "07018", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "480935" ]
+, [ 93, "C732F96C-B630-4AED-BCD4-5361200EA533", 93, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T01:18:17", "Mortgage", "Conventional fixed mortgage", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "NY", "14212", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "493136" ]
+, [ 94, "874B9A1C-7A2C-4C39-A76B-880C6864ED3F", 94, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T01:45:46", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "Nationstar Mortgage", "CA", "95037", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "454695" ]
+, [ 96, "90BF6273-C9A5-4895-8441-81A550B8E788", 96, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T02:06:14", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "Citibank", "CA", "90045", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "748242" ]
+, [ 97, "3C04815F-ED24-4AE8-AD90-39BC970F35CD", 97, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T02:39:59", "Debt collection", "Credit card", "Cont'd attempts collect debt not owed", "Debt is not mine", null, null, "The Moore Law Group", "CA", "91711", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "470913" ]
+, [ 98, "3C5993F8-79D5-475A-9EDB-F4535D00C816", 98, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T00:41:20", "Debt collection", "Other (i.e. phone, health club, etc.)", "Cont'd attempts collect debt not owed", "Debt was paid", null, null, "Franklin Collection Service, Inc.", "IL", "60440", null, "N/A", "Phone", "2013-08-01T04:00:00", "Closed with explanation", "Yes", "No", "469711" ]
+, [ 99, "661A5070-3A2F-433B-B440-DBAAC5412022", 99, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T05:55:51", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "HSBC North America Holdings Inc.", "FL", "32747", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "482443" ]
+, [ 100, "3B595369-D1B5-4EC0-B160-E27F7BB458B2", 100, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T01:21:49", "Mortgage", "Conventional fixed mortgage", "Loan servicing, payments, escrow account", null, null, null, "EverBank", "TN", "37217", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469734" ]
+, [ 101, "22BD38CE-EF9B-40B6-9275-5096C55470B3", 101, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T10:33:17", "Credit reporting", null, "Incorrect information on credit report", "Account status", null, null, "TransUnion Intermediate Holdings, Inc.", "DE", "19668", null, "N/A", "Postal mail", "2013-08-26T04:00:00", "Closed with explanation", "Yes", "No", "501508" ]
+, [ 102, "6EC806A0-5ED7-4DD7-A581-744535649227", 102, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T01:44:27", "Credit card", null, "Credit determination", null, null, null, "Wells Fargo & Company", "CA", "95409", "Older American", "N/A", "Web", "2013-07-29T04:00:00", "Closed with explanation", "Yes", "No", "469738" ]
+, [ 103, "80E65260-240B-4D42-8B99-7C062CD3858A", 103, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T01:50:58", "Mortgage", "Conventional adjustable mortgage (ARM)", "Loan modification,collection,foreclosure", null, null, null, "JPMorgan Chase & Co.", "CO", "80206", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "469739" ]
+, [ 104, "9437DAC2-B723-4E4E-B9E8-77F1550F42F3", 104, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T03:13:39", "Credit card", null, "Credit determination", null, null, null, "Bank of America", "FL", "34983", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "469752" ]
+, [ 105, "C58BE10D-0820-4B44-B91A-20E6FD9E71CA", 105, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T03:35:02", "Debt collection", "Other (i.e. phone, health club, etc.)", "Cont'd attempts collect debt not owed", "Debt was paid", null, null, "Professional Debt Mediation, Inc.", "FL", "32304", null, "N/A", "Web", "2013-09-19T04:00:00", "Closed with explanation", "Yes", "No", "469753" ]
+, [ 106, "8AFB5F25-C158-494A-92B5-A689F6A2150C", 106, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T03:36:05", "Debt collection", "Mortgage", "Communication tactics", "Threatened to take legal action", null, null, "Select Portfolio Servicing, Inc", "NY", "11234", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with explanation", "Yes", "Yes", "466892" ]
+, [ 107, "24B91959-6336-4373-94B5-3D849864C0E2", 107, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T03:48:55", "Credit card", null, "Identity theft / Fraud / Embezzlement", null, null, null, "Barclays PLC", "SC", "29412", null, "N/A", "Web", "2013-07-29T04:00:00", "Closed with explanation", "Yes", "No", "469755" ]
+, [ 108, "8D586543-F34D-4C02-B555-4FF2C1588D54", 108, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T11:56:30", "Credit reporting", null, "Incorrect information on credit report", "Account terms", null, null, "Capital One", "GA", "30126", null, "N/A", "Web", "2013-08-02T04:00:00", "Closed with explanation", "Yes", "No", "470928" ]
+, [ 109, "51D71BEE-DFF0-4105-821C-FB786DC42517", 109, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T04:31:14", "Mortgage", "Conventional fixed mortgage", "Loan modification,collection,foreclosure", null, null, null, "Bank of America", "CA", "91320", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "No", "476001" ]
+, [ 110, "F66514A6-9B81-467A-B712-D093EF887949", 110, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T12:30:09", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "JPMorgan Chase & Co.", "NC", "28075", "Servicemember", "N/A", "Referral", "2013-08-05T04:00:00", "Closed with explanation", "Yes", "No", "470978" ]
+, [ 111, "AA480CC6-80DB-41D0-B039-A61F94516020", 111, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T11:14:33", "Credit reporting", null, "Incorrect information on credit report", "Account status", null, null, "Experian", "MN", "55390", null, "N/A", "Postal mail", "2013-08-12T04:00:00", "Closed with explanation", "Yes", "No", "469777" ]
+, [ 112, "7F653595-0D5F-4A05-BDFD-2D055DEC92A8", 112, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T11:46:20", "Credit reporting", null, "Incorrect information on credit report", "Account status", null, null, "Experian", "IA", "50325", null, "N/A", "Postal mail", "2013-08-12T04:00:00", "Closed with explanation", "Yes", "No", "469781" ]
+, [ 113, "632BC233-2DC7-4CD3-B25E-F1CD0CCF0708", 113, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T12:03:26", "Credit reporting", null, "Credit reporting company's investigation", "No notice of investigation status/result", null, null, "TransUnion Intermediate Holdings, Inc.", "OH", "43701", null, "N/A", "Web", "2013-07-30T04:00:00", "Closed with explanation", "Yes", "Yes", "479487" ]
+, [ 114, "C3E9590A-5588-4CEA-8B4D-C6F00DF739D2", 114, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T13:05:57", "Credit reporting", null, "Credit reporting company's investigation", "No notice of investigation status/result", null, null, "Experian", "IL", "60633", null, "N/A", "Postal mail", "2013-08-02T04:00:00", "Closed with non-monetary relief", "Yes", "No", "470951" ]
+, [ 115, "F8AB747F-37B7-4A79-891F-03606F68F9DA", 115, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T13:09:37", "Debt collection", "Other (i.e. phone, health club, etc.)", "Improper contact or sharing of info", "Talked to a third party about my debt", null, null, "Receivables Performance Management LLC", "NY", "11205", null, "N/A", "Web", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "Yes", "470955" ]
+, [ 116, "F256BFA0-31BF-4946-94EB-9EE512BE45D1", 116, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T12:24:04", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Nationstar Mortgage", "NC", "28457", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "470012" ]
+, [ 117, "45A14883-B650-4815-99AA-FEB97593A148", 117, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T12:25:08", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "JPMorgan Chase & Co.", "AL", "36526", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "470091" ]
+, [ 118, "C763E983-49E3-47B2-BD6D-2F7BDF084F4E", 118, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T12:28:24", "Credit reporting", null, "Incorrect information on credit report", "Account status", null, null, "Equifax", "NJ", "07111", null, "N/A", "Referral", "2013-08-19T04:00:00", "Closed with non-monetary relief", "Yes", "No", "469792" ]
+, [ 119, "4CC6098B-26C3-4F10-94CB-D9505D3C1356", 119, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T13:20:27", "Credit reporting", null, "Credit reporting company's investigation", "No notice of investigation status/result", null, null, "TransUnion Intermediate Holdings, Inc.", "IL", "60633", null, "N/A", "Postal mail", "2013-08-02T04:00:00", "Closed with explanation", "Yes", "No", "470962" ]
+, [ 120, "93C35B81-0B54-4195-96A5-812F1D4ADEEA", 120, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T13:25:08", "Bank account or service", "Checking account", "Problems caused by my funds being low", null, null, null, "TD Bank US Holding Company", "FL", "33186", null, "N/A", "Referral", "2013-08-02T04:00:00", "Closed with monetary relief", "Yes", "No", "471071" ]
+, [ 121, "37BBCFCC-698A-4474-80AF-A46D797D4018", 121, 1467791352, "912605", 1467791352, "912605", null, "2013-07-31T13:22:04", "Mortgage", "Other mortgage", "Application, originator, mortgage broker", null, null, null, "U.S. Bancorp", "WI", "53130", null, "N/A", "Referral", "2013-08-05T04:00:00", "Closed with explanation", "Yes", "No", "470985" ]
+, [ 122, "B073A482-BECE-40E1-AE0C-C283DE75B1F8", 122, 1467791352, "912605", 1467791352, "912605", null, "2013-07-30T12:33:05", "Mortgage", "Other mortgage", "Loan modification,collection,foreclosure", null, null, null, "Wells Fargo & Company", "CA", "93111", null, "N/A", "Referral", "2013-07-31T04:00:00", "Closed with explanation", "Yes", "No", "470103" ]
+ ]
+}
