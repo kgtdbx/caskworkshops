@@ -66,4 +66,5 @@ sudo service sshd start
 sudo service network-manager start
 
 
-Once started
+Once started, both network cards should be visible via the network manager.
+Use sudo ifconfig to see the assigned IPs
